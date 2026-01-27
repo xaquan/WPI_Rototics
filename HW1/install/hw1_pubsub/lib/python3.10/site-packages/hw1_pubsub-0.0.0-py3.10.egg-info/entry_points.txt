@@ -1,0 +1,4 @@
+[console_scripts]
+listener = hw1_pubsub.subscriber_member_function:main
+talker = hw1_pubsub.publisher_member_function:main
+
