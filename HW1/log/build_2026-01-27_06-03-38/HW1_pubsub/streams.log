@@ -1,0 +1,29 @@
+[1.212s] Invoking command in '/home/xquan/ROE500-ROS/HW1/src/HW1_pubsub': PYTHONPATH=/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/HW1_pubsub build --build-base /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build install --record /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log --single-version-externally-managed install_data
+[1.667s] running egg_info
+[1.669s] writing ../../build/HW1_pubsub/HW1_pubsub.egg-info/PKG-INFO
+[1.670s] writing dependency_links to ../../build/HW1_pubsub/HW1_pubsub.egg-info/dependency_links.txt
+[1.671s] writing entry points to ../../build/HW1_pubsub/HW1_pubsub.egg-info/entry_points.txt
+[1.672s] writing requirements to ../../build/HW1_pubsub/HW1_pubsub.egg-info/requires.txt
+[1.672s] writing top-level names to ../../build/HW1_pubsub/HW1_pubsub.egg-info/top_level.txt
+[1.676s] reading manifest file '../../build/HW1_pubsub/HW1_pubsub.egg-info/SOURCES.txt'
+[1.676s] adding license file 'LICENSE'
+[1.678s] writing manifest file '../../build/HW1_pubsub/HW1_pubsub.egg-info/SOURCES.txt'
+[1.680s] running build
+[1.680s] running build_py
+[1.681s] copying HW1_pubsub/subscriber_member_function.py -> /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub
+[1.681s] copying HW1_pubsub/publisher_member_function.py -> /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub
+[1.681s] running install
+[1.681s] running install_lib
+[1.682s] copying /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub/subscriber_member_function.py -> /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub
+[1.682s] copying /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub/publisher_member_function.py -> /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub
+[1.683s] byte-compiling /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.684s] byte-compiling /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.685s] running install_data
+[1.686s] running install_egg_info
+[1.689s] removing '/home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.690s] Copying ../../build/HW1_pubsub/HW1_pubsub.egg-info to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub-0.0.0-py3.10.egg-info
+[1.692s] running install_scripts
+[1.733s] Installing listener script to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/HW1_pubsub
+[1.734s] Installing talker script to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/HW1_pubsub
+[1.736s] writing list of installed files to '/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log'
+[1.774s] Invoked command in '/home/xquan/ROE500-ROS/HW1/src/HW1_pubsub' returned '0': PYTHONPATH=/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/HW1_pubsub build --build-base /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build install --record /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log --single-version-externally-managed install_data

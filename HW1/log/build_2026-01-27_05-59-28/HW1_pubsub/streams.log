@@ -1,0 +1,36 @@
+[1.125s] Invoking command in '/home/xquan/ROE500-ROS/HW1/src/HW1_pubsub': PYTHONPATH=/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/HW1_pubsub build --build-base /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build install --record /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log --single-version-externally-managed install_data
+[1.570s] running egg_info
+[1.571s] creating ../../build/HW1_pubsub/HW1_pubsub.egg-info
+[1.571s] writing ../../build/HW1_pubsub/HW1_pubsub.egg-info/PKG-INFO
+[1.571s] writing dependency_links to ../../build/HW1_pubsub/HW1_pubsub.egg-info/dependency_links.txt
+[1.572s] writing entry points to ../../build/HW1_pubsub/HW1_pubsub.egg-info/entry_points.txt
+[1.572s] writing requirements to ../../build/HW1_pubsub/HW1_pubsub.egg-info/requires.txt
+[1.573s] writing top-level names to ../../build/HW1_pubsub/HW1_pubsub.egg-info/top_level.txt
+[1.573s] writing manifest file '../../build/HW1_pubsub/HW1_pubsub.egg-info/SOURCES.txt'
+[1.575s] reading manifest file '../../build/HW1_pubsub/HW1_pubsub.egg-info/SOURCES.txt'
+[1.576s] adding license file 'LICENSE'
+[1.577s] writing manifest file '../../build/HW1_pubsub/HW1_pubsub.egg-info/SOURCES.txt'
+[1.578s] running build
+[1.578s] running build_py
+[1.579s] creating /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build
+[1.579s] creating /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib
+[1.579s] creating /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub
+[1.579s] copying HW1_pubsub/__init__.py -> /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub
+[1.580s] running install
+[1.581s] running install_lib
+[1.583s] creating /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub
+[1.583s] copying /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build/lib/HW1_pubsub/__init__.py -> /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub
+[1.583s] byte-compiling /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.583s] running install_data
+[1.583s] creating /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/share/ament_index
+[1.583s] creating /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/share/ament_index/resource_index
+[1.584s] creating /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/share/ament_index/resource_index/packages
+[1.584s] copying resource/HW1_pubsub -> /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/share/ament_index/resource_index/packages
+[1.584s] copying package.xml -> /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/share/HW1_pubsub
+[1.584s] running install_egg_info
+[1.587s] Copying ../../build/HW1_pubsub/HW1_pubsub.egg-info to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages/HW1_pubsub-0.0.0-py3.10.egg-info
+[1.589s] running install_scripts
+[1.624s] Installing listener script to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/HW1_pubsub
+[1.625s] Installing talker script to /home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/HW1_pubsub
+[1.625s] writing list of installed files to '/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log'
+[1.664s] Invoked command in '/home/xquan/ROE500-ROS/HW1/src/HW1_pubsub' returned '0': PYTHONPATH=/home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xquan/ROE500-ROS/HW1/install/HW1_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/HW1_pubsub build --build-base /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/build install --record /home/xquan/ROE500-ROS/HW1/build/HW1_pubsub/install.log --single-version-externally-managed install_data
