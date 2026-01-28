@@ -31,7 +31,7 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         res = "even" if int(msg.data) % 2 == 0 else "odd"
-        self.get_logger().info('I received "%s". It is an %s number' % (msg.data, res))
+        self.get_logger().info('I received %s. It is an %s number' % (msg.data, res))
 
 
 def main(args=None):

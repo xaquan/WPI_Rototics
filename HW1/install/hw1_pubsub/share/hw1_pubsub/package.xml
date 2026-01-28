@@ -3,7 +3,10 @@
 <package format="3">
 	<name>hw1_pubsub</name>
 	<version>0.0.0</version>
-	<description>HW 1 Publish interger number every one second</description>
+	<description>
+		Publish increasing integer numbers every one second, and 
+        subscribe to receive these numbers and print whether they are even or odd.
+	</description>
 	<maintainer email="xquan1@wpi.edu">xquan</maintainer>
 	<license>Apache-2.0</license>
 

@@ -15,7 +15,8 @@ setup(
         zip_safe=True,
         maintainer='xquan',
         maintainer_email='xquan1@wpi.edu',
-        description='publish increasing integer numbers, e.g. 1, 2, 3, 4, 5, 6, ..., in every one second',
+        description="""Publish increasing integer numbers every one second, and 
+                    subscribe to receive these numbers and print whether they are even or odd.""",
         license='Apache-2.0',
         extras_require={
             'test': [

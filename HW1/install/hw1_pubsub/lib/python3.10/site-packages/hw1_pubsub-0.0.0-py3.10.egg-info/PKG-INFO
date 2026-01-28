@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: hw1-pubsub
 Version: 0.0.0
-Summary: publish increasing integer numbers, e.g. 1, 2, 3, 4, 5, 6, ..., in every one second
+Summary: Publish increasing integer numbers every one second, and 
 Home-page: UNKNOWN
 Maintainer: xquan
 Maintainer-email: xquan1@wpi.edu
