@@ -20,21 +20,22 @@ This repository contains a ROS 2 package named **`hw1_pubsub`** that demonstrate
 
 ## How to Build and Run
 
-### 1) Build the workspace
-```bash
-cd ./HW1
+### 1) Go to the workplace
+Where you see `src/` and `README.md`.
 
+### 2) Build the workspace
+```bash
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build
 ```
 
-### 2) Run the publisher
+### 3) Run the publisher
 ```bash
 source install/setup.bash
 ros2 run hw1_pubsub talker
 ```
 
-### 3) Run the subscriber (open a new terminal)
+### 4) Run the subscriber (open a new terminal)
 ```bash
 source install/setup.bash
 ros2 run hw1_pubsub listener
