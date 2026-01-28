@@ -26,8 +26,17 @@ cd ./HW1
 
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build
+```
 
-### 2) Build the workspace
+### 2) Run the publisher
 ```bash
 source install/setup.bash
 ros2 run hw1_pubsub talker
+```
+
+### 3) Run the subscriber (open a new terminal)
+```bash
+source install/setup.bash
+ros2 run hw1_pubsub listener
+```
+
