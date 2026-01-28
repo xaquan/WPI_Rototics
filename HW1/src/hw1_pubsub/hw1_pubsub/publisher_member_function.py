@@ -18,10 +18,10 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 
-class MinimalPublisher(Node):
+class Hw1Publisher(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher')
+        super().__init__('hw1_publisher')
         self.publisher_ = self.create_publisher(String, 'publish_integer', 10)
         timer_period = 1.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -38,9 +38,9 @@ class MinimalPublisher(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()
+    hw1_publisher = Hw1Publisher()
 
-    rclpy.spin(minimal_publisher)
+    rclpy.spin(hw1_publisher)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically

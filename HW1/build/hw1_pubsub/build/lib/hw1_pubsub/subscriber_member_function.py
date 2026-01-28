@@ -18,10 +18,10 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 
-class MinimalSubscriber(Node):
+class Hw1Subscriber(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('hw1_subscriber')
         self.subscription = self.create_subscription(
             String,
             'publish_integer',
@@ -37,14 +37,14 @@ class MinimalSubscriber(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_subscriber = MinimalSubscriber()
+    hw1_subscriber = Hw1Subscriber()
 
-    rclpy.spin(minimal_subscriber)
+    rclpy.spin(hw1_subscriber)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    minimal_subscriber.destroy_node()
+    hw1_subscriber.destroy_node()
     rclpy.shutdown()
 
 
