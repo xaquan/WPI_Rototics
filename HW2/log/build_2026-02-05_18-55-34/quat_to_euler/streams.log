@@ -1,0 +1,25 @@
+[0.975s] Invoking command in '/code/WPI_Rototics/HW2/src/quat_to_euler': PYTHONPATH=/code/WPI_Rototics/HW2/build/quat_to_euler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/quat_to_euler build --build-base /code/WPI_Rototics/HW2/build/quat_to_euler/build install --record /code/WPI_Rototics/HW2/build/quat_to_euler/install.log --single-version-externally-managed install_data
+[1.312s] running egg_info
+[1.312s] writing ../../build/quat_to_euler/quat_to_euler.egg-info/PKG-INFO
+[1.313s] writing dependency_links to ../../build/quat_to_euler/quat_to_euler.egg-info/dependency_links.txt
+[1.313s] writing entry points to ../../build/quat_to_euler/quat_to_euler.egg-info/entry_points.txt
+[1.314s] writing requirements to ../../build/quat_to_euler/quat_to_euler.egg-info/requires.txt
+[1.314s] writing top-level names to ../../build/quat_to_euler/quat_to_euler.egg-info/top_level.txt
+[1.317s] reading manifest file '../../build/quat_to_euler/quat_to_euler.egg-info/SOURCES.txt'
+[1.318s] adding license file 'LICENSE'
+[1.319s] writing manifest file '../../build/quat_to_euler/quat_to_euler.egg-info/SOURCES.txt'
+[1.319s] running build
+[1.319s] running build_py
+[1.319s] copying quat_to_euler/quat_to_euler_node.py -> /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler
+[1.320s] running install
+[1.321s] running install_lib
+[1.322s] copying /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler/quat_to_euler_node.py -> /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler
+[1.323s] byte-compiling /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler/quat_to_euler_node.py to quat_to_euler_node.cpython-310.pyc
+[1.325s] running install_data
+[1.326s] running install_egg_info
+[1.328s] removing '/code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler-0.0.0-py3.10.egg-info' (and everything under it)
+[1.329s] Copying ../../build/quat_to_euler/quat_to_euler.egg-info to /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler-0.0.0-py3.10.egg-info
+[1.333s] running install_scripts
+[1.367s] Installing quat_to_euler_node script to /code/WPI_Rototics/HW2/install/quat_to_euler/lib/quat_to_euler
+[1.368s] writing list of installed files to '/code/WPI_Rototics/HW2/build/quat_to_euler/install.log'
+[1.402s] Invoked command in '/code/WPI_Rototics/HW2/src/quat_to_euler' returned '0': PYTHONPATH=/code/WPI_Rototics/HW2/build/quat_to_euler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/quat_to_euler build --build-base /code/WPI_Rototics/HW2/build/quat_to_euler/build install --record /code/WPI_Rototics/HW2/build/quat_to_euler/install.log --single-version-externally-managed install_data

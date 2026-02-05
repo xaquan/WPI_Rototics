@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/quat_to_euler/quat_to_euler.egg-info
+writing ../../build/quat_to_euler/quat_to_euler.egg-info/PKG-INFO
+writing dependency_links to ../../build/quat_to_euler/quat_to_euler.egg-info/dependency_links.txt
+writing entry points to ../../build/quat_to_euler/quat_to_euler.egg-info/entry_points.txt
+writing requirements to ../../build/quat_to_euler/quat_to_euler.egg-info/requires.txt
+writing top-level names to ../../build/quat_to_euler/quat_to_euler.egg-info/top_level.txt
+writing manifest file '../../build/quat_to_euler/quat_to_euler.egg-info/SOURCES.txt'
+reading manifest file '../../build/quat_to_euler/quat_to_euler.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/quat_to_euler/quat_to_euler.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /code/WPI_Rototics/HW2/build/quat_to_euler/build
+creating /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib
+creating /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler
+copying quat_to_euler/subcriber_member_function.py -> /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler
+copying quat_to_euler/__init__.py -> /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler
+running install
+running install_lib
+creating /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler
+copying /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler/subcriber_member_function.py -> /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler
+copying /code/WPI_Rototics/HW2/build/quat_to_euler/build/lib/quat_to_euler/__init__.py -> /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler
+byte-compiling /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler/subcriber_member_function.py to subcriber_member_function.cpython-310.pyc
+byte-compiling /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /code/WPI_Rototics/HW2/install/quat_to_euler/share/ament_index
+creating /code/WPI_Rototics/HW2/install/quat_to_euler/share/ament_index/resource_index
+creating /code/WPI_Rototics/HW2/install/quat_to_euler/share/ament_index/resource_index/packages
+copying resource/quat_to_euler -> /code/WPI_Rototics/HW2/install/quat_to_euler/share/ament_index/resource_index/packages
+copying package.xml -> /code/WPI_Rototics/HW2/install/quat_to_euler/share/quat_to_euler
+running install_egg_info
+Copying ../../build/quat_to_euler/quat_to_euler.egg-info to /code/WPI_Rototics/HW2/install/quat_to_euler/lib/python3.10/site-packages/quat_to_euler-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /code/WPI_Rototics/HW2/install/quat_to_euler/lib/quat_to_euler
+writing list of installed files to '/code/WPI_Rototics/HW2/build/quat_to_euler/install.log'

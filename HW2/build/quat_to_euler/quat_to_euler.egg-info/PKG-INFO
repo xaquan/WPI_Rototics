@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: quat-to-euler
+Version: 0.0.0
+Summary: TODO: receive quaternion and convert to euler angles
+Home-page: UNKNOWN
+Maintainer: xquan
+Maintainer-email: xquan1@wpi.edu
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+

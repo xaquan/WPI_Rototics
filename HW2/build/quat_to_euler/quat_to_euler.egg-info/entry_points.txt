@@ -1,0 +1,3 @@
+[console_scripts]
+quat_to_euler_node = quat_to_euler.quat_to_euler_node:main
+
