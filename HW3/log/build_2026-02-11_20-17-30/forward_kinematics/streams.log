@@ -1,0 +1,25 @@
+[1.102s] Invoking command in '/code/WPI_Rototics/HW3/src/forward_kinematics': PYTHONPATH=/code/WPI_Rototics/HW3/build/forward_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forward_kinematics build --build-base /code/WPI_Rototics/HW3/build/forward_kinematics/build install --record /code/WPI_Rototics/HW3/build/forward_kinematics/install.log --single-version-externally-managed install_data
+[1.410s] running egg_info
+[1.411s] writing ../../build/forward_kinematics/forward_kinematics.egg-info/PKG-INFO
+[1.411s] writing dependency_links to ../../build/forward_kinematics/forward_kinematics.egg-info/dependency_links.txt
+[1.412s] writing entry points to ../../build/forward_kinematics/forward_kinematics.egg-info/entry_points.txt
+[1.412s] writing requirements to ../../build/forward_kinematics/forward_kinematics.egg-info/requires.txt
+[1.412s] writing top-level names to ../../build/forward_kinematics/forward_kinematics.egg-info/top_level.txt
+[1.415s] reading manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'
+[1.421s] adding license file 'LICENSE'
+[1.422s] writing manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'
+[1.422s] running build
+[1.422s] running build_py
+[1.423s] copying forward_kinematics/subcriber_fw_solver.py -> /code/WPI_Rototics/HW3/build/forward_kinematics/build/lib/forward_kinematics
+[1.423s] running install
+[1.423s] running install_lib
+[1.425s] copying /code/WPI_Rototics/HW3/build/forward_kinematics/build/lib/forward_kinematics/subcriber_fw_solver.py -> /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics
+[1.426s] byte-compiling /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/subcriber_fw_solver.py to subcriber_fw_solver.cpython-310.pyc
+[1.427s] running install_data
+[1.427s] running install_egg_info
+[1.430s] removing '/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[1.431s] Copying ../../build/forward_kinematics/forward_kinematics.egg-info to /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics-0.0.0-py3.10.egg-info
+[1.434s] running install_scripts
+[1.462s] Installing fw_solver script to /code/WPI_Rototics/HW3/install/forward_kinematics/lib/forward_kinematics
+[1.463s] writing list of installed files to '/code/WPI_Rototics/HW3/build/forward_kinematics/install.log'
+[1.492s] Invoked command in '/code/WPI_Rototics/HW3/src/forward_kinematics' returned '0': PYTHONPATH=/code/WPI_Rototics/HW3/build/forward_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forward_kinematics build --build-base /code/WPI_Rototics/HW3/build/forward_kinematics/build install --record /code/WPI_Rototics/HW3/build/forward_kinematics/install.log --single-version-externally-managed install_data

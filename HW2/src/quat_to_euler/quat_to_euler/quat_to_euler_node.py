@@ -43,7 +43,7 @@ class QuatToEulerSubscriber(Node):
         euler_angles = self.convert_quat_to_euler(quat)
 
         self.get_logger().info('Euler angles (radians): roll=%.4f, pitch=%.4f, yaw=%.4f' %
-            (euler_angles['roll'], euler_angles['pitch'], euler_angles['yaw']))
+            (euler_angles.roll, euler_angles.pitch, euler_angles.yaw))
 
 
 
@@ -55,30 +55,32 @@ class QuatToEulerSubscriber(Node):
             quat: dict or object with keys/attributes w, x, y, z (normalized quaternion)
             
         Returns:
-            dict with keys 'roll', 'pitch', 'yaw' (in radians)
+            EulerAngles with keys 'roll', 'pitch', 'yaw' (in radians)
         """
         # Extract quaternion components
         w = quat.w
         x = quat.x
         y = quat.y
         z = quat.z
+
+        res = EulerAngles(roll=0.0, pitch=0.0, yaw=0.0)
         
         # roll (x-axis rotation)
         sinr_cosp = 2 * (w * x + y * z)
         cosr_cosp = 1 - 2 * (x * x + y * y)
-        roll = math.atan2(sinr_cosp, cosr_cosp)
+        res.roll = math.atan2(sinr_cosp, cosr_cosp)
         
         # pitch (y-axis rotation)
         sinp = math.sqrt(1 + 2 * (w * y - x * z))
         cosp = math.sqrt(1 - 2 * (w * y - x * z))
-        pitch = 2 * math.atan2(sinp, cosp) - math.pi / 2
+        res.pitch = 2 * math.atan2(sinp, cosp) - math.pi / 2
         
         # yaw (z-axis rotation)
         siny_cosp = 2 * (w * z + x * y)
         cosy_cosp = 1 - 2 * (y * y + z * z)
-        yaw = math.atan2(siny_cosp, cosy_cosp)
-        
-        return {'roll': roll, 'pitch': pitch, 'yaw': yaw}
+        res.yaw = math.atan2(siny_cosp, cosy_cosp)
+
+        return res
 
 
 def main(args=None):

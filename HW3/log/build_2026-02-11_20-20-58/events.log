@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (forward_kinematics) JobQueued: {'identifier': 'forward_kinematics', 'dependencies': OrderedDict()}
+[0.001131] (forward_kinematics) JobStarted: {'identifier': 'forward_kinematics'}
+[0.099653] (-) TimerEvent: {}
+[0.200081] (-) TimerEvent: {}
+[0.300508] (-) TimerEvent: {}
+[0.400948] (-) TimerEvent: {}
+[0.501339] (-) TimerEvent: {}
+[0.601734] (-) TimerEvent: {}
+[0.702134] (-) TimerEvent: {}
+[0.802622] (-) TimerEvent: {}
+[0.903069] (-) TimerEvent: {}
+[1.003493] (-) TimerEvent: {}
+[1.103948] (-) TimerEvent: {}
+[1.157277] (forward_kinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/forward_kinematics', 'build', '--build-base', '/code/WPI_Rototics/HW3/build/forward_kinematics/build', 'install', '--record', '/code/WPI_Rototics/HW3/build/forward_kinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/code/WPI_Rototics/HW3/src/forward_kinematics', 'env': {'HOSTNAME': 'QuanROG', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/code', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/code/WPI_Rototics/HW3/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'ZSH_DISABLE_COMPFIX': 'true', 'LANG': 'C.UTF-8', 'XDG_CONFIG_HOME': '/root/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/code/WPI_Rototics/HW3/install/forward_kinematics:/opt/ros/humble', 'PWD': '/code/WPI_Rototics/HW3/build/forward_kinematics', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/code/WPI_Rototics/HW3/build/forward_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages:/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.204122] (-) TimerEvent: {}
+[1.304571] (-) TimerEvent: {}
+[1.405013] (-) TimerEvent: {}
+[1.467580] (forward_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[1.468464] (forward_kinematics) StdoutLine: {'line': b'writing ../../build/forward_kinematics/forward_kinematics.egg-info/PKG-INFO\n'}
+[1.477557] (forward_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../build/forward_kinematics/forward_kinematics.egg-info/dependency_links.txt\n'}
+[1.477893] (forward_kinematics) StdoutLine: {'line': b'writing entry points to ../../build/forward_kinematics/forward_kinematics.egg-info/entry_points.txt\n'}
+[1.478261] (forward_kinematics) StdoutLine: {'line': b'writing requirements to ../../build/forward_kinematics/forward_kinematics.egg-info/requires.txt\n'}
+[1.478836] (forward_kinematics) StdoutLine: {'line': b'writing top-level names to ../../build/forward_kinematics/forward_kinematics.egg-info/top_level.txt\n'}
+[1.480984] (forward_kinematics) StdoutLine: {'line': b"reading manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'\n"}
+[1.481704] (forward_kinematics) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.482602] (forward_kinematics) StdoutLine: {'line': b"writing manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'\n"}
+[1.482959] (forward_kinematics) StdoutLine: {'line': b'running build\n'}
+[1.483121] (forward_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[1.483327] (forward_kinematics) StdoutLine: {'line': b'copying forward_kinematics/subcriber_fw_solver.py -> /code/WPI_Rototics/HW3/build/forward_kinematics/build/lib/forward_kinematics\n'}
+[1.483816] (forward_kinematics) StdoutLine: {'line': b'running install\n'}
+[1.484209] (forward_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[1.485214] (forward_kinematics) StdoutLine: {'line': b'copying /code/WPI_Rototics/HW3/build/forward_kinematics/build/lib/forward_kinematics/subcriber_fw_solver.py -> /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics\n'}
+[1.486489] (forward_kinematics) StdoutLine: {'line': b'byte-compiling /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/subcriber_fw_solver.py to subcriber_fw_solver.cpython-310.pyc\n'}
+[1.488051] (forward_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[1.488352] (forward_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.490664] (forward_kinematics) StdoutLine: {'line': b"removing '/code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.491412] (forward_kinematics) StdoutLine: {'line': b'Copying ../../build/forward_kinematics/forward_kinematics.egg-info to /code/WPI_Rototics/HW3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics-0.0.0-py3.10.egg-info\n'}
+[1.494887] (forward_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[1.505062] (-) TimerEvent: {}
+[1.523970] (forward_kinematics) StdoutLine: {'line': b'Installing fw_solver script to /code/WPI_Rototics/HW3/install/forward_kinematics/lib/forward_kinematics\n'}
+[1.524667] (forward_kinematics) StdoutLine: {'line': b"writing list of installed files to '/code/WPI_Rototics/HW3/build/forward_kinematics/install.log'\n"}
+[1.555426] (forward_kinematics) CommandEnded: {'returncode': 0}
+[1.581287] (forward_kinematics) JobEnded: {'identifier': 'forward_kinematics', 'rc': 0}
+[1.583615] (-) EventReactorShutdown: {}

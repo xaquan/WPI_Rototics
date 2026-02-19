@@ -1,0 +1,3 @@
+[console_scripts]
+fw_solver = forward_kinematics.subcriber_fw_solver:main
+
