@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating firstModel.egg-info
+writing firstModel.egg-info/PKG-INFO
+writing dependency_links to firstModel.egg-info/dependency_links.txt
+writing entry points to firstModel.egg-info/entry_points.txt
+writing requirements to firstModel.egg-info/requires.txt
+writing top-level names to firstModel.egg-info/top_level.txt
+writing manifest file 'firstModel.egg-info/SOURCES.txt'
+reading manifest file 'firstModel.egg-info/SOURCES.txt'
+writing manifest file 'firstModel.egg-info/SOURCES.txt'
+running build_ext
+Creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/lib/python3.10/site-packages/firstModel.egg-link (link to .)
+
+Installed /code/WPI_Rototics/assign1/src/firstModel/build/firstModel
+running symlink_data
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/ament_index
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/ament_index/resource_index
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/ament_index/resource_index/packages
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/resource/firstModel -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/ament_index/resource_index/packages
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/package.xml -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/launch
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/launch/display.launch.py -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/launch
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/launch/gazebo.launch.py -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/launch
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/urdf
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/urdf/myfirst.xacro -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/urdf
+creating /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/rviz
+symbolically linking /code/WPI_Rototics/assign1/src/firstModel/build/firstModel/rviz/display.rviz -> /code/WPI_Rototics/assign1/src/firstModel/install/firstModel/share/firstModel/rviz

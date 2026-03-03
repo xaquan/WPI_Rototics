@@ -1,0 +1,45 @@
+[0.963s] Invoking command in '/code/WPI_Rototics/assign1/src/firstModel': PYTHONPATH=/code/WPI_Rototics/assign1/build/firstModel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/firstModel build --build-base /code/WPI_Rototics/assign1/build/firstModel/build install --record /code/WPI_Rototics/assign1/build/firstModel/install.log --single-version-externally-managed install_data
+[1.294s] running egg_info
+[1.295s] creating ../../build/firstModel/firstModel.egg-info
+[1.296s] writing ../../build/firstModel/firstModel.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/firstModel/firstModel.egg-info/dependency_links.txt
+[1.297s] writing entry points to ../../build/firstModel/firstModel.egg-info/entry_points.txt
+[1.297s] writing requirements to ../../build/firstModel/firstModel.egg-info/requires.txt
+[1.297s] writing top-level names to ../../build/firstModel/firstModel.egg-info/top_level.txt
+[1.298s] writing manifest file '../../build/firstModel/firstModel.egg-info/SOURCES.txt'
+[1.300s] reading manifest file '../../build/firstModel/firstModel.egg-info/SOURCES.txt'
+[1.300s] adding license file 'LICENSE'
+[1.301s] writing manifest file '../../build/firstModel/firstModel.egg-info/SOURCES.txt'
+[1.301s] running build
+[1.301s] running build_py
+[1.302s] creating /code/WPI_Rototics/assign1/build/firstModel/build
+[1.303s] creating /code/WPI_Rototics/assign1/build/firstModel/build/lib
+[1.303s] creating /code/WPI_Rototics/assign1/build/firstModel/build/lib/firstModel
+[1.304s] copying firstModel/__init__.py -> /code/WPI_Rototics/assign1/build/firstModel/build/lib/firstModel
+[1.305s] running install
+[1.305s] running install_lib
+[1.306s] creating /code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages/firstModel
+[1.307s] copying /code/WPI_Rototics/assign1/build/firstModel/build/lib/firstModel/__init__.py -> /code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages/firstModel
+[1.308s] byte-compiling /code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages/firstModel/__init__.py to __init__.cpython-310.pyc
+[1.309s] running install_data
+[1.309s] creating /code/WPI_Rototics/assign1/install/firstModel/share/ament_index
+[1.310s] creating /code/WPI_Rototics/assign1/install/firstModel/share/ament_index/resource_index
+[1.311s] creating /code/WPI_Rototics/assign1/install/firstModel/share/ament_index/resource_index/packages
+[1.312s] copying resource/firstModel -> /code/WPI_Rototics/assign1/install/firstModel/share/ament_index/resource_index/packages
+[1.313s] copying package.xml -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel
+[1.313s] creating /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/launch
+[1.313s] copying launch/display.launch.py -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/launch
+[1.314s] copying launch/gazebo.launch.py -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/launch
+[1.314s] creating /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/urdf
+[1.315s] copying urdf/myfirst.urdf.xacro -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/urdf
+[1.315s] copying urdf/myfirst.urdf -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/urdf
+[1.315s] copying urdf/simple_robot.xacro -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/urdf
+[1.316s] creating /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/rviz
+[1.317s] copying rviz/display.rviz -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/rviz
+[1.317s] creating /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/worlds
+[1.318s] copying worlds/empty.world.bak -> /code/WPI_Rototics/assign1/install/firstModel/share/firstModel/worlds
+[1.318s] running install_egg_info
+[1.322s] Copying ../../build/firstModel/firstModel.egg-info to /code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages/firstModel-0.0.0-py3.10.egg-info
+[1.325s] running install_scripts
+[1.360s] writing list of installed files to '/code/WPI_Rototics/assign1/build/firstModel/install.log'
+[1.394s] Invoked command in '/code/WPI_Rototics/assign1/src/firstModel' returned '0': PYTHONPATH=/code/WPI_Rototics/assign1/build/firstModel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/assign1/install/firstModel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/firstModel build --build-base /code/WPI_Rototics/assign1/build/firstModel/build install --record /code/WPI_Rototics/assign1/build/firstModel/install.log --single-version-externally-managed install_data

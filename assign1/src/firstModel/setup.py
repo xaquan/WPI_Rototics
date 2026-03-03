@@ -21,6 +21,9 @@ setup(
 
         # Install RViz configs (optional but recommended)
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
+
+        # Install world files (optional, only needed if you have custom worlds or want to include the empty world)
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

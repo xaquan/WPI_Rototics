@@ -1,0 +1,4 @@
+[console_scripts]
+fw_solver = kinematics.subcriber_fw_solver:main
+inv_solver = kinematics.subcriber_inv_solver:main
+

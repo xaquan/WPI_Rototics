@@ -1,0 +1,29 @@
+[1.282s] Invoking command in '/code/WPI_Rototics/HW4/src/kinematics': PYTHONPATH=/code/WPI_Rototics/HW4/build/kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinematics build --build-base /code/WPI_Rototics/HW4/build/kinematics/build install --record /code/WPI_Rototics/HW4/build/kinematics/install.log --single-version-externally-managed install_data
+[1.620s] running egg_info
+[1.621s] writing ../../build/kinematics/kinematics.egg-info/PKG-INFO
+[1.621s] writing dependency_links to ../../build/kinematics/kinematics.egg-info/dependency_links.txt
+[1.622s] writing entry points to ../../build/kinematics/kinematics.egg-info/entry_points.txt
+[1.622s] writing requirements to ../../build/kinematics/kinematics.egg-info/requires.txt
+[1.622s] writing top-level names to ../../build/kinematics/kinematics.egg-info/top_level.txt
+[1.634s] reading manifest file '../../build/kinematics/kinematics.egg-info/SOURCES.txt'
+[1.635s] adding license file 'LICENSE'
+[1.636s] writing manifest file '../../build/kinematics/kinematics.egg-info/SOURCES.txt'
+[1.636s] running build
+[1.636s] running build_py
+[1.637s] copying kinematics/KinematicModel.py -> /code/WPI_Rototics/HW4/build/kinematics/build/lib/kinematics
+[1.637s] copying kinematics/subcriber_inv_solver.py -> /code/WPI_Rototics/HW4/build/kinematics/build/lib/kinematics
+[1.639s] running install
+[1.639s] running install_lib
+[1.641s] copying /code/WPI_Rototics/HW4/build/kinematics/build/lib/kinematics/KinematicModel.py -> /code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics
+[1.641s] copying /code/WPI_Rototics/HW4/build/kinematics/build/lib/kinematics/subcriber_inv_solver.py -> /code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics
+[1.643s] byte-compiling /code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics/KinematicModel.py to KinematicModel.cpython-310.pyc
+[1.645s] byte-compiling /code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics/subcriber_inv_solver.py to subcriber_inv_solver.cpython-310.pyc
+[1.647s] running install_data
+[1.647s] running install_egg_info
+[1.650s] removing '/code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[1.652s] Copying ../../build/kinematics/kinematics.egg-info to /code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages/kinematics-0.0.0-py3.10.egg-info
+[1.655s] running install_scripts
+[1.687s] Installing fw_solver script to /code/WPI_Rototics/HW4/install/kinematics/lib/kinematics
+[1.687s] Installing inv_solver script to /code/WPI_Rototics/HW4/install/kinematics/lib/kinematics
+[1.688s] writing list of installed files to '/code/WPI_Rototics/HW4/build/kinematics/install.log'
+[1.720s] Invoked command in '/code/WPI_Rototics/HW4/src/kinematics' returned '0': PYTHONPATH=/code/WPI_Rototics/HW4/build/kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/HW4/install/kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinematics build --build-base /code/WPI_Rototics/HW4/build/kinematics/build install --record /code/WPI_Rototics/HW4/build/kinematics/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./HW4/src/kinematics/kinematics"
+    ]
+}

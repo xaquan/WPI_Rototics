@@ -7,13 +7,14 @@ from launch.actions import DeclareLaunchArgument
 from launch.conditions import IfCondition
 from launch.substitutions import LaunchConfiguration, Command
 from launch_ros.actions import Node
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
     pkg_name = "firstModel"
     pkg_share = get_package_share_directory(pkg_name)
 
-    default_model_path = os.path.join(pkg_share, "urdf", "myfirst.urdf")
+    default_model_path = os.path.join(pkg_share, "urdf", "myfirst.urdf.xacro")
     default_rviz_config = os.path.join(pkg_share, "rviz", "display.rviz")
 
     declare_model = DeclareLaunchArgument(
@@ -35,7 +36,10 @@ def generate_launch_description():
     )
 
     # Expand xacro -> URDF (also fine if you later switch the file to .urdf, just update default_model_path)
-    robot_description = Command(["xacro ", LaunchConfiguration("model")])
+    robot_description = ParameterValue(
+        Command(["xacro ", LaunchConfiguration("model")]),
+        value_type=str,
+    )
 
     robot_state_publisher = Node(
         package="robot_state_publisher",
