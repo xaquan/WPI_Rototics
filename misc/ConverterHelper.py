@@ -111,11 +111,11 @@ class ConverterHelper:
 			qy = (r23 + r32) / S
 			qz = 0.25 * S
 
-		return qx, qy, qz, qw
+		return {"x": qx, "y": qy, "z": qz, "w": qw}
 
 	@staticmethod
 	def quat_to_euler(qx, qy, qz, qw, degrees=False):
-		qx, qy, qz, qw = QuaternionConverter.normalize(qx, qy, qz, qw)
+		qx, qy, qz, qw = ConverterHelper.normalize(qx, qy, qz, qw)
 
 		sinr_cosp = 2.0 * (qw * qx + qy * qz)
 		cosr_cosp = 1.0 - 2.0 * (qx * qx + qy * qy)

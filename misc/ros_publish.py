@@ -1,7 +1,11 @@
 import json
 import shlex
 import subprocess
+from turtle import ht
+from turtle import ht
 from typing import Any, Dict, List, Union
+
+from ConverterHelper import ConverterHelper
 
 def ros2_pub(topic_name: str,
              msg_type: str,
@@ -46,21 +50,72 @@ def ros2_pub(topic_name: str,
 
     return cmd_str
 
-topic_name = "/inv_solver_topic"
-data_type = "geometry_msgs/msg/Pose"
-pose_data_1 = {
-  "position": {"x": 500, "y": 100, "z": 1500},
-  "orientation": {"x": 0.0, "y": 0.0, "z": 0, "w": 1}
-}
 
-pose_data_2 = {
-  "position": {"x": -200, "y": 300, "z": 1200},
-  "orientation": {"x": 0.0, "y": 0.0, "z": 0, "w": 1}
-}
+def publish_ee_pose():
 
-print(ros2_pub(topic_name, data_type, pose_data_1, once=True, dry_run=True))
-ros2_pub(topic_name, data_type, pose_data_1, once=True)
+  topic_name = "/inv_solver_topic"
+  data_type = "geometry_msgs/msg/Pose"
 
-print(ros2_pub(topic_name, data_type, pose_data_2, once=True, dry_run=True))
-ros2_pub(topic_name, data_type, pose_data_2, once=True)
+  ht1 = [
+          [1, 0, 0, 500], 
+          [0, 1, 0, 100], 
+          [0, 0, 1, 1500],
+          [0, 0, 0, 1]
+        ]
+  
+  ht2 = [
+        [1, 0, 0, -200], 
+        [0, 1, 0, 300], 
+        [0, 0, 1, 1200],
+        [0, 0, 0, 1]
+      ]
+
+  pose_data = []
+
+  pose_data.append({
+    "position": {"x": ht1[0][3], "y": ht1[1][3], "z": ht1[2][3]},
+    "orientation": ConverterHelper.rot_to_quat(ht1[0:3])
+  })
+
+  pose_data.append({
+    "position": {"x": ht2[0][3], "y": ht2[1][3], "z": ht2[2][3]},
+    "orientation": ConverterHelper.rot_to_quat(ht2[0:3])
+  })
+
+  # pose_data_1 = {
+  #   "position": {"x": 500, "y": 100, "z": 1500},
+  #   "orientation": {"x": 0.0, "y": 0.0, "z": 0, "w": 1}
+  # }
+
+  # pose_data_2 = {
+  #   "position": {"x": -200, "y": 300, "z": 1200},
+  #   "orientation": {"x": 0.0, "y": 0.0, "z": 0, "w": 1}
+  # }
+
+    # print(ros2_pub(topic_name, data_type, pose_data_1, once=True, dry_run=True))
+    # ros2_pub(topic_name, data_type, pose_data_1, once=True)
+
+  for pose in pose_data:
+
+    print(ros2_pub(topic_name, data_type, pose, once=True, dry_run=True))
+    ros2_pub(topic_name, data_type, pose, once=True)
+
+def publish_joint_angles():
+
+  topic_name = "/fw_solver_topic"
+  data_type = "std_msgs/msg/Float32MultiArray"
+
+  joints = []
+  joints.append({"data": [11.30993247, 24.96464072, -1.56633144, 90.0, -66.60169073, -78.69006753]})
+  joints.append({"data": [123.69006753, 51.44099437, -39.53090112, 90.0, -78.08990675, 33.69006753]})
+
+  
+
+  for joint_angle in joints:     
+    print(ros2_pub(topic_name, data_type, joint_angle, once=True, dry_run=True))
+    ros2_pub(topic_name, data_type, joint_angle, once=True)
+
+
+# publish_ee_pose()
+publish_joint_angles()
 

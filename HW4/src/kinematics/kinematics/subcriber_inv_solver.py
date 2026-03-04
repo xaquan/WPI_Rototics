@@ -1,8 +1,11 @@
+import numpy as np
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Pose
 from .ConverterHelper import ConverterHelper
 from .KinematicModel import KinematicModel
+
 
 class InvSolverSubscriber(Node):
 
@@ -33,6 +36,9 @@ class InvSolverSubscriber(Node):
         # Calculate the inverse kinematics and print the joint angles
         kModel = KinematicModel()
         theta = kModel.inverse_kinematics_ABB_1400(msg)
+
+        # rad to deg
+        theta = np.degrees(theta)
 
         # Print the joint angles
         self.get_logger().info(f'Joint Angles: {theta}')
