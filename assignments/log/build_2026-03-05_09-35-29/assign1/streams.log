@@ -1,0 +1,22 @@
+[0.941s] Invoking command in '/code/WPI_Rototics/assignments/src/assign1': PYTHONPATH=/code/WPI_Rototics/assignments/build/assign1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1 build --build-base /code/WPI_Rototics/assignments/build/assign1/build install --record /code/WPI_Rototics/assignments/build/assign1/install.log --single-version-externally-managed install_data
+[1.321s] running egg_info
+[1.322s] writing ../../build/assign1/assign1.egg-info/PKG-INFO
+[1.322s] writing dependency_links to ../../build/assign1/assign1.egg-info/dependency_links.txt
+[1.323s] writing entry points to ../../build/assign1/assign1.egg-info/entry_points.txt
+[1.323s] writing requirements to ../../build/assign1/assign1.egg-info/requires.txt
+[1.323s] writing top-level names to ../../build/assign1/assign1.egg-info/top_level.txt
+[1.326s] reading manifest file '../../build/assign1/assign1.egg-info/SOURCES.txt'
+[1.326s] adding license file 'LICENSE'
+[1.327s] writing manifest file '../../build/assign1/assign1.egg-info/SOURCES.txt'
+[1.327s] running build
+[1.327s] running build_py
+[1.328s] running install
+[1.329s] running install_lib
+[1.330s] running install_data
+[1.330s] copying urdf/myfirst.urdf.xacro -> /code/WPI_Rototics/assignments/install/assign1/share/assign1/urdf
+[1.331s] running install_egg_info
+[1.334s] removing '/code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages/assign1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.335s] Copying ../../build/assign1/assign1.egg-info to /code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages/assign1-0.0.0-py3.10.egg-info
+[1.337s] running install_scripts
+[1.368s] writing list of installed files to '/code/WPI_Rototics/assignments/build/assign1/install.log'
+[1.400s] Invoked command in '/code/WPI_Rototics/assignments/src/assign1' returned '0': PYTHONPATH=/code/WPI_Rototics/assignments/build/assign1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assign1 build --build-base /code/WPI_Rototics/assignments/build/assign1/build install --record /code/WPI_Rototics/assignments/build/assign1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/assign1/assign1.egg-info/PKG-INFO
+writing dependency_links to ../../build/assign1/assign1.egg-info/dependency_links.txt
+writing entry points to ../../build/assign1/assign1.egg-info/entry_points.txt
+writing requirements to ../../build/assign1/assign1.egg-info/requires.txt
+writing top-level names to ../../build/assign1/assign1.egg-info/top_level.txt
+reading manifest file '../../build/assign1/assign1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/assign1/assign1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/firstmodel.launch.py -> /code/WPI_Rototics/assignments/install/assign1/share/assign1/launch
+running install_egg_info
+removing '/code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages/assign1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/assign1/assign1.egg-info to /code/WPI_Rototics/assignments/install/assign1/lib/python3.10/site-packages/assign1-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/code/WPI_Rototics/assignments/build/assign1/install.log'
